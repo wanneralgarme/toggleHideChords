@@ -1,0 +1,12 @@
+<script>
+function hideFunction () {
+const allChords = document.querySelectorAll(".chorda");
+	
+var elemCount = allChords.length;
+
+for (var i = 0; i < elemCount; i++) {
+  allChords[i].classList.toggle("displayNone");
+}	
+}
+</script>
+			
